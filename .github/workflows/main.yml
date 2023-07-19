@@ -45,9 +45,6 @@ jobs:
           cd backend/
           python manage.py test
 
-          # .github/workflows/main.yml
-
-
   build_backend_and_push_to_docker_hub:
       name: Push Docker image to DockerHub
       runs-on: ubuntu-latest
