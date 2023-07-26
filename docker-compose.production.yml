@@ -5,7 +5,7 @@ volumes:
   static_volume:
 
 services:
-  db:
+  db_taski:
     image: postgres:13.10
     env_file: .env
     volumes:
